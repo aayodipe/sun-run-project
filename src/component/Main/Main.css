@@ -1,0 +1,25 @@
+.container {
+    width : 800px;
+    height: 500px;
+    overflow: hidden;
+    padding: 30px;
+
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 8px;
+  }
+th {
+    color :#7C787A
+};
+
+.status {
+    color: #87c904
+};

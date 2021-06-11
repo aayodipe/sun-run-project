@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.subhead{
+    font-size: 25px;
+    color :#7C787A;
+    padding-bottom: 20px;
+    margin-top: -7px;
+}
+
+.left_bar,
+.right_bar {
+    color: #FFFD80;
+      height: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.left_bar{
+    text-align: left;
+}
+.right_bar{
+    text-align: right;
+}
+.current_time_header{
+    font-size: 16px;
+};
