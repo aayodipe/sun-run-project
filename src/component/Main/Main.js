@@ -54,7 +54,7 @@ const Scheduleboard = () => {
                             <td>{moment.parseZone(item.attributes.arrival_time).utc().format('LT')}</td>
                             <td>{item.id.split('-')[4]}</td>
                             <td>{item.id.split('-')[3]}</td>
-                            <td>{'TBD'}</td>            
+                            <td>{item.id.split('-')[2]}</td>            
                             <td className = 'status'>{'ON TIME'}</td>            
                             </tr>)
                     
