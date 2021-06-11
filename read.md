@@ -13,3 +13,4 @@ I could not get the name of the Carrier , Track# and The Status so I have to har
 
 The API returns over 30 Thousand data. I trying to limit the reponds before query the API by setting a limit parameter with the API Call but it was not working. So I Filter some of the invalid before i mount to the DOM.
 
+5. To calculate the 'On Time ' Status, I will need to subtract the current time (A) minus the Arrival time(B) then compare the difference(D) with the time(D)that it will take the train to get to the North Station from where it is. With that, I will be able to write a function to determine if the train is On time or not. I would not do this because I don't have enough information from the API.
